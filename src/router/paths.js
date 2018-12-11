@@ -51,6 +51,15 @@
       `@/pages/_agents/bonusSetings.vue`
     )
 
+  },    
+  {
+    path : '/Agents/Barang',
+    meta : { breadcrumb : true },
+    name : 'products',
+    component : () => import (
+      `@/pages/_agents/products.vue`
+    )
+
   },
  
   ];

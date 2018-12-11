@@ -1,10 +1,16 @@
 const Menu =  [
   { header: 'Apps' },
- 
-   {
+
+  {
     title : 'User',
     group : 'apps',
     name  : 'bonusSetings',
+    icon  : 'fa-wrench',
+  },
+  {
+    title : 'Barang',
+    group : 'apps',
+    name  : 'products',
     icon  : 'fa-wrench',
   },
 
